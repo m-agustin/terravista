@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: ##f4f4f4;
+}
+.navbar-header::after{
+    content: "TerraVista";
+    font-size: 30px!Important;
+    color: #656565!Important;
+    font-family: fantasy;
+    display: inline-block;
+    line-height: 74px;
+}
+#logo {
+    float: left;
+}
